@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    
+    display: inline-block;
+    margin-top: 5px;;
+    
+    
+}
+div ul li a{
+    padding: 10px 100px;
+    display: inline-block;
+    font-size:30px;
+    
+    color:white;
+    max-width: 100%;
+    margin-left:-100px;
+    text-decoration: none;
+    background-color: rgb(28, 199, 148);
+    
+}
+ul{
+    text-align: center;
+    
+}
+
+div ul.menu li a:hover{
+    background-color: rgb(5, 68, 44);
+    color:yellow;
+    transition: .3s;
+    
+}
+
+.para{
+font-size:30px;
+margin-top: 30px;
+text-align: justify;
+padding: 0 5px;
+}
+
+.main-menu{
+    width: 1024px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.menu{
+    text-align: justify;
+}
+
+img{
+    margin-top: 30px;
+    border: 2px solid rgba(146, 74, 7, 0.829);
+    box-shadow: 5px 7px 10px rgba(167, 85, 8, 0.836);
+}
+
+div.main-menu ul.menu li:nth-child(1) a{
+    margin-left: -3px;
+}
+div.main-menu ul.menu li:nth-child(5) a{
+    margin-left: -3px;
+
+}
+div.main-menu ul.menu li:nth-child(6) a{
+    margin-left: -10px;
+
+}
+div.footer{
+    margin-top: 20px;
+    background-color: grey;
+    padding: 10px 0;
+}
+div.footer:target{
+    color: red;
+    background-color: aqua;
+}
+
+div.para p.p{
+    background-image: url(https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-dark-wall-background-material-image_279996.jpg);
+
+    background-position: bottom center;
+    
+    background-size: 100%;
+    
+    background-repeat: no-repeat;
+    
+    background-attachment: scroll;
+    
+    max-width:100%;
+
+    color:rgb(166, 189, 202);
+}
